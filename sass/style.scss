@@ -2,9 +2,12 @@
 @import "./header.scss";
 @import "./button.scss";
 
+*{
+    font-family: 'Inter', sans-serif;
+}
 
 body{
-    width:1200px;
+    width:1000px;
     margin:auto;
 }
 
