@@ -8,5 +8,39 @@
             width:100%;
             height:auto;
         }
+        
+        .bottom-content{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            .title{
+                font-size:45px;
+                font-weight:800;
+                width:50%;
+                margin:0;
+                padding-right:70px;
+                box-sizing: border-box;
+            }
+            .section{
+                width:50%;
+                display:flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap:25px;
+                .article{
+                    font-size:15px;
+                    color:$dark-grayish-blue;
+                }
+                .button-2{
+                    width:50%;
+                }
+            }
+        }
+    }
+
+    .aside{
+        width:30%;
+        background-color: $very-dark-blue;
+        color:$soft-orange;
     }
 }
