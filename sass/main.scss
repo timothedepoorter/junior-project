@@ -2,12 +2,13 @@
     display:flex;
     justify-content: space-between;
     margin-top:50px;
+    gap:25px;
     .content{
-        width:68%;
+        width:70%;
         .large-img{
             width:100%;
             height:auto;
-            margin-bottom:15px;
+            margin-bottom:20px;
         }
         
         .bottom-content{
@@ -20,6 +21,7 @@
                 margin:0;
                 padding-right:70px;
                 box-sizing: border-box;
+                line-height: 46px;
             }
             .section{
                 width:50%;
@@ -41,6 +43,11 @@
     .aside{
         width:30%;
         background-color: $very-dark-blue;
-        color:$soft-orange;
+        display:flex;
+        flex-direction:column;
+        .title-h2{
+            margin:0;
+            color:$soft-orange;
+        }
     }
 }
