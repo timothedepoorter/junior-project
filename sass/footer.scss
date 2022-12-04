@@ -1,0 +1,25 @@
+.footer{
+    margin-top:50px;
+    display:flex;
+    .section-footer{
+        display:flex;
+        .img-footer{
+            height:120px;
+            width:auto;
+        }
+        .article-footer{
+            display:flex;
+            flex-direction:column;
+            .title-h4{
+                margin:0
+            }
+            .title-h5{
+                margin:0;
+            }
+            .para{
+                margin:0;
+            }
+        }
+    }
+    
+}
