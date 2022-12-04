@@ -1,8 +1,13 @@
 .footer{
     margin-top:50px;
+    width:100%;
     display:flex;
+    justify-content: space-between;
     .section-footer{
+        width:30%;
         display:flex;
+        gap:10px;
+        justify-content: space-between;
         .img-footer{
             height:120px;
             width:auto;
@@ -10,14 +15,22 @@
         .article-footer{
             display:flex;
             flex-direction:column;
+            justify-content: flex-start;
+            gap:8px;
             .title-h4{
-                margin:0
+                margin:0;
+                color:$grayish-blue;
+                font-size:25px;
             }
             .title-h5{
                 margin:0;
+                font-weight: 800;
+                font-size:16px;
             }
             .para{
                 margin:0;
+                font-size:15px;
+                color:$dark-grayish-blue;
             }
         }
     }
